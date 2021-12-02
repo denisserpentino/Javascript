@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Calcolo dislivello trekking </h1>
+<h1>Moltiplicazione  </h1>
 <form id="frm1" >
- Altezza di partenza: <input type="text" name="Hbase" value="0"><br>
- Altezza di arrivo: <input type="text" name="HArrivo" value="1000"><br><br>
+ Numero 1: <input type="text" name="Hbase" value="0"><br>
+ Numero 2: <input type="text" name="HArrivo" value="1000"><br><br>
  <!-- <input type="submit" value="Input dati Trekking">-->
 </form>
 
-<p>Calcola il dislivello:</p>
-<button onclick="myFunction()">Calcola il dislivello:</button>
+<p>Calcola del prodotto:</p>
+<button onclick="myFunction()">Calcola del prodotto: </button>
 
-<p>Il punto di partenza è:</p>
+<p>il primo numero  è:</p>
 <p id="base"></p>
-<p>Il punto di arrivo è:</p>
+<p>Il secondo numero è:</p>
 <p id="arrivo"></p>
 
-Il dislivello è di:
+Il prodotto è :
 <p id="demo"></p>
 <script>
 function myFunction() {
@@ -33,7 +33,7 @@ document.getElementById("arrivo").innerHTML =arrivo;
 }
 
 function Dislivello(h1,h2){
-return h2-h1;
+return h2*h1;
 }
 
 </script>
